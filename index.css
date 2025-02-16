@@ -1,0 +1,101 @@
+@font-face {
+    font-family: page;
+    src: url('Dosis-VariableFont_wght.ttf');
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+#pageTitle{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    margin: 1rem;
+    gap: 55rem;
+    align-items: center;
+}
+
+html{
+    border: 3px solid black;
+    font-family: page;
+    margin: 1rem;
+}
+
+header{
+    border-bottom: 2px solid black;
+    padding: 1rem;
+}
+
+#hero, #heroh5{
+    text-align: center;
+    padding: 1rem;
+}
+
+#Projects ul, #Education ul, #WorkExperience ul{
+    display: block;
+    padding: 0;
+}
+
+#Education, #WorkExperience{
+    border-left: 2px solid black;
+}
+
+#Education, #WorkExperience, #Projects{
+    padding: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#Projects ul li, #WorkExperience ul li{
+    margin-bottom: 1rem;
+}
+
+#Education ul{
+    list-style-type:square;
+}
+
+#Eduation ul li{
+    margin-bottom: 1rem;
+}
+
+#first{
+    display: flex;
+    border-bottom: 2px solid black ;
+}
+
+#teachers{
+    display: flex;
+    gap: 5rem;
+    margin: 2rem;
+}
+
+#teachers ul li{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+
+footer{
+    text-align: center;
+    margin: 3rem;
+}
