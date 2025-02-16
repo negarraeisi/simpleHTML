@@ -1,4 +1,4 @@
 https://roadmap.sh/projects/basic-html-website
 
 
-preview: negarraeisi.github.io/simpleHTML/
+preview: https://negarraeisi.github.io/simpleHTML
